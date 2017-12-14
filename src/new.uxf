@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>390</y>
+      <w>290</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>package :: AbstractClass or Interface
+-
+
+-
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>390</y>
+      <w>220</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>package ::ClassName
+-
+data mambers
+
+-
+methods/ constructors
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>580</x>
+      <y>160</y>
+      <w>220</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>pokemon project design
+Noah Uffens
+12.14.17</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>340</y>
+      <w>260</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Pokemon
+-
+-name : String
+-number : int
+health : int
+attackPoints : int
+enhancement modifier : double
+-
+
+methods/constructors</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>940</x>
+      <y>480</y>
+      <w>300</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: iceType
+-
+freeze(int) : String
+icicles(int) : String
+frozenTundra(int) :String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>820</x>
+      <y>150</y>
+      <w>300</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: FireType
+-
+ember(int) : String
+flamethrower(int) : String
+inferno(int) :String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>620</y>
+      <w>300</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: IceType
+-
+drizzle(int) : String
+watergun(int) : String
+tsunami(int) :String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
