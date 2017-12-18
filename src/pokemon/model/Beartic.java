@@ -1,8 +1,8 @@
 package pokemon.model;
 
-public class Cubchoo extends Pokemon implements IceType
+public class Beartic extends Pokemon implements IceType
 {
-	public Cubchoo(int number, String name)
+	public Beartic(int number, String name)
 	{
 		super(number, name);
 	}

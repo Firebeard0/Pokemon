@@ -7,6 +7,7 @@ public class Charmellion extends Pokemon implements FireType
 		super(number, name);
 	}
 	
+	
 	public String ember(int damage)
 	{
 		String inflicted = "1";

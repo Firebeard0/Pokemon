@@ -1,23 +1,23 @@
 package pokemon.model;
 
-public class Cubchoo extends Pokemon implements IceType
+public class Prinplup extends Pokemon implements WaterType
 {
-	public Cubchoo(int number, String name)
+	public Prinplup(int number, String name)
 	{
 		super(number, name);
 	}
 	
-	public String freeze(int damage)
+	public String drizzle(int damage)
 	{
 		String inflicted = "1";
 		return inflicted;
 	}
-	public String icicles(int damage)
+	public String flood(int damage)
 	{
 		String inflicted = "1";
 		return inflicted;
 	}
-	public String blizzard(int damage)
+	public String tsunami(int damage)
 	{
 		String inflicted = "1";
 		return inflicted;
