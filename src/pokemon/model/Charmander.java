@@ -9,17 +9,17 @@ public class Charmander extends Pokemon implements FireType
 	
 	public String ember(int damage)
 	{
-		String inflicted = "1";
+		String inflicted = "you've been smoked";
 		return inflicted;
 	}
 	public String flameThrower(int damage)
 	{
-		String inflicted = "1";
+		String inflicted = "You've been scorched";
 		return inflicted;
 	}
 	public String inferno(int damage)
 	{
-		String inflicted = "1";
+		String inflicted = "You have been incinerated";
 		return inflicted;
 	}
 }

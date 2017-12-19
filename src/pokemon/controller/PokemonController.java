@@ -2,10 +2,8 @@ package pokemon.controller;
 
 public class PokemonController
 {
-	public static void main (String [] args)
+	public void start()
 	{
-		PokemonController appController = new PokemonController();
-		appcontroller.start();
+		
 	}
-	
 }
