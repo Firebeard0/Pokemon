@@ -2,9 +2,28 @@ package pokemon.model;
 
 public class Charmellion extends Pokemon implements FireType
 {
+	public Charmellion()
+	{
+		super(100, "Charmellion");
+		setup();
+	}
+	public Charmellion(String name)
+	{
+		super(100, "Charmellion");
+		setup();
+	}
 	public Charmellion(int number, String name)
 	{
 		super(number, name);
+		setup();
+	}
+	
+	protected void setup()
+	{
+		this.setAttackPoints(100);
+		this.setCanEvolve(true);
+		this.setEnhancementModifier(.89);
+		this.setHealthPoints(50);
 	}
 	
 	
